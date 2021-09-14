@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "AtkinsonHyperlegible";
+    font-weight: 400;
+    src: url(./public/fonts/AtkinsonHyperlegible-Bold.ttf) format("ttf");
+  }
+  @font-face {
+    font-family: "BD_Cartoon_Shout";
+    font-weight: 400;
+    src: url(./public/fonts/BD_Cartoon_Shout.ttf) format("ttf");
+  }
+}
